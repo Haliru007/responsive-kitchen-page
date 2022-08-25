@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ 
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap" rel="stylesheet">
+   <!--   <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+ <link rel ="stylesheet" href ="style.css"> 
+  <title>kitchen</title>
+</head>
+<body>
+  <div class="mobile-nav" id="mobile-navigation">    
+   <div class="mobile-nav-header"> 
+       
+<div class="close-button" onclick="toggleMobileNav()">
+     <button>
+      <i class="fa fa-close"></i>  
+     </button>    
+ </div>
+   </div>
+         
+    <ul>
+   <li><a href ="#">Home</a></li> 
+   <li><a href ="#">Recipe</a></li> 
+  <li><a href ="#">Blog</a></li>  
+   <li><a href ="#">Contact</a></li>  </ul>    
+       
+    </div>
+    
+    
+    <div class ="hero">
+       <nav>      
+    <img src="Images/logo.png" class="logo"> 
+    <ul>
+   <li><a href ="#">Home</a></li> 
+   <li><a href ="#">Recipe</a></li> 
+  <li><a href ="#">Blog</a></li>  
+   <li><a href ="#">Contact</a></li>  </ul>
+    <div class="menu-button"onclick="toggleMobileNav()">
+     <button>
+      <i class="fa fa-reorder"></i>  
+     </button>    
+ </div>
+   
+<!--  <img src="Images/menu.png" class="menu-img">
+-->           
+       </nav>
+        <div class="row">
+      <div class="col">
+<h1>All happiness depends on <br>leisurely breakfast</h1>
+     <a href="#">Order now</a>
+      </div>  
+      <div class="col">
+ <img src="Images/pic1.png" class="feature-img">   
+   <img src="Images/pic2.png" class="thumbnail-img">       
+      </div>    
+            
+        </div>
+    </div>
+  <script>
+    function toggleMobileNav() {
+var element =document.getElementById("mobile-navigation");
+if(element.classList.contains("mobile-nav-open")){
+    element.classList.remove("mobile-nav-open");
+}
+
+else {
+    element.classList.add("mobile-nav-open")
+}
+ }
+      
+      
+      
+      
+  </script> 
+    
+</body>
+</html>
+
+   
+</body>
+</html>
+
+     
+  </script> 
+    
+</body>
+</html>
+
